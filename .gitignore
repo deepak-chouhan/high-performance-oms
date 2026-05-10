@@ -1,0 +1,7 @@
+
+# Misc
+doc_*/
+.DS_Store
+Thumbs.db
+TODO
+*.excalidraw
