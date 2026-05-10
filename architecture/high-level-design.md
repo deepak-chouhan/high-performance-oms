@@ -1,3 +1,3 @@
 # High Performance OMS - High Level Design
 
-![HLD](../assets/hld.svg)
+![HLD](../assets/high-level-design.png)

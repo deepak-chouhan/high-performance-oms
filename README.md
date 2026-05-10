@@ -16,7 +16,7 @@ This project is split across multiple repositories to ensure independent scalabi
 
 The system follows an Asynchronous pattern to ensure the non-blocking I/O.
 
-![HLD](./assets//hld.svg)
+![HLD](./assets/high-level-design.png)
 
 ### Core Components
 
