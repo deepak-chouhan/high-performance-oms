@@ -1,0 +1,22 @@
+{
+  "name": "high-performance-oms",
+  "version": "1.0.0",
+  "packageManager": "pnpm@11.0.9",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "turbo lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.6.2",
+    "@vitest/coverage-v8": "^4.1.6",
+    "turbo": "^2.9.12",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.6"
+  }
+}

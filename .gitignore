@@ -1,3 +1,23 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Editor
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
 
 # Misc
 doc_*/
@@ -5,3 +25,7 @@ doc_*/
 Thumbs.db
 TODO
 *.excalidraw
+
+# Sonar
+.sonar/
+.scannerwork/
