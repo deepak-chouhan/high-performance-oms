@@ -12,4 +12,8 @@ export const loggerConfig = {
     service: process.env["SERVICE_NAME"] ?? "unknown",
     version: process.env["SERVICE_VERSION"] ?? "0.0.0",
   },
+  transport:
+    process.env["NODE_ENV"] === "production"
+      ? undefined
+      : { target: "pino-pretty", options: { colorize: true } },
 };
